@@ -1,14 +1,15 @@
 package com.theapphideaway.automatewithpython
 
-import android.app.Activity
 import android.content.Context
 import android.content.Intent
+import android.support.v4.content.ContextCompat.startActivity
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
-import android.widget.Toast
+import com.theapphideaway.automatewithpython.Chapters.ChapterOneActivity
+import com.theapphideaway.automatewithpython.Chapters.ChapterTwoActivity
 import kotlinx.android.synthetic.main.chapter_card.view.*
 
 class ChapterAdapter(private val chapterList: ArrayList<Chapter>, private val context: Context):
@@ -29,7 +30,18 @@ class ChapterAdapter(private val chapterList: ArrayList<Chapter>, private val co
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         holder.bindPerson(chapterList[position])
         holder.itemView.setOnClickListener {
-            Toast.makeText(context, holder.itemView.chapter.text.toString(), Toast.LENGTH_LONG).show()
+
+            if (holder.itemView.chapter.text.toString() == "Chapter 1")
+            {
+                var intent = Intent(context, ChapterOneActivity::class.java)
+                startActivity(context,intent, null)
+            }
+            else if (holder.itemView.chapter.text.toString() == "Chapter 2")
+            {
+                var intent = Intent(context, ChapterTwoActivity::class.java)
+                startActivity(context,intent, null)
+            }
+
         }
 
     }

@@ -25,11 +25,11 @@ class MainActivity : AppCompatActivity() {
         chapter_recycler_view.layoutManager = layoutManager
 
 
-        for (i in 1..9)
+        for (i in 1..18)
         {
             val chapter = Chapter()
 
-            chapter.Title = "Chapter # $i"
+            chapter.Title = "Chapter $i"
             chapterList!!.add(chapter)
         }
         chapterAdapter!!.notifyDataSetChanged()
