@@ -1,11 +1,11 @@
 def get_age(age):
-    if age > 0 and age < 12:
+    if 0 < age < 12:
         return "You're a child."
-    elif age > 12 and age < 20:
+    elif 12 < age < 20:
         return "You're a teenager."
-    elif age > 20 and age < 65:
+    elif 20 < age < 65:
         return "You're an adult"
-    elif age > 65 and age < 150:
+    elif 65 < age < 150:
         return "You're elderly"
     else:
         return "You're either dead or immortal"

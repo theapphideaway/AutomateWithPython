@@ -9,6 +9,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import com.theapphideaway.automatewithpython.Chapters.ChapterOneActivity
+import com.theapphideaway.automatewithpython.Chapters.ChapterThreeActivity
 import com.theapphideaway.automatewithpython.Chapters.ChapterTwoActivity
 import kotlinx.android.synthetic.main.chapter_card.view.*
 
@@ -39,6 +40,11 @@ class ChapterAdapter(private val chapterList: ArrayList<Chapter>, private val co
             else if (holder.itemView.chapter.text.toString() == "Chapter 2")
             {
                 var intent = Intent(context, ChapterTwoActivity::class.java)
+                startActivity(context,intent, null)
+            }
+            else if (holder.itemView.chapter.text.toString() == "Chapter 3")
+            {
+                var intent = Intent(context, ChapterThreeActivity::class.java)
                 startActivity(context,intent, null)
             }
 
