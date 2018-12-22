@@ -8,9 +8,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
-import com.theapphideaway.automatewithpython.Chapters.ChapterOneActivity
-import com.theapphideaway.automatewithpython.Chapters.ChapterThreeActivity
-import com.theapphideaway.automatewithpython.Chapters.ChapterTwoActivity
+import com.theapphideaway.automatewithpython.Chapters.*
 import kotlinx.android.synthetic.main.chapter_card.view.*
 
 class ChapterAdapter(private val chapterList: ArrayList<Chapter>, private val context: Context):
@@ -32,20 +30,27 @@ class ChapterAdapter(private val chapterList: ArrayList<Chapter>, private val co
         holder.bindPerson(chapterList[position])
         holder.itemView.setOnClickListener {
 
-            if (holder.itemView.chapter.text.toString() == "Chapter 1")
-            {
-                var intent = Intent(context, ChapterOneActivity::class.java)
-                startActivity(context,intent, null)
-            }
-            else if (holder.itemView.chapter.text.toString() == "Chapter 2")
-            {
-                var intent = Intent(context, ChapterTwoActivity::class.java)
-                startActivity(context,intent, null)
-            }
-            else if (holder.itemView.chapter.text.toString() == "Chapter 3")
-            {
-                var intent = Intent(context, ChapterThreeActivity::class.java)
-                startActivity(context,intent, null)
+            when {
+                holder.itemView.chapter.text.toString() == "Chapter 1" -> {
+                    var intent = Intent(context, ChapterOneActivity::class.java)
+                    startActivity(context,intent, null)
+                }
+                holder.itemView.chapter.text.toString() == "Chapter 2" -> {
+                    var intent = Intent(context, ChapterTwoActivity::class.java)
+                    startActivity(context,intent, null)
+                }
+                holder.itemView.chapter.text.toString() == "Chapter 3" -> {
+                    var intent = Intent(context, ChapterThreeActivity::class.java)
+                    startActivity(context,intent, null)
+                }
+                holder.itemView.chapter.text.toString() == "Chapter 4" -> {
+                    var intent = Intent(context, ChapterFourActivity::class.java)
+                    startActivity(context,intent, null)
+                }
+                holder.itemView.chapter.text.toString() == "Chapter 5" -> {
+                    var intent = Intent(context, ChapterFiveActivity::class.java)
+                    startActivity(context,intent, null)
+                }
             }
 
         }

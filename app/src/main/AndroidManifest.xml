@@ -23,6 +23,10 @@
         </activity>
         <activity android:name=".Chapters.ChapterThreeActivity">
         </activity>
+        <activity android:name=".Chapters.ChapterFourActivity">
+        </activity>
+        <activity android:name=".Chapters.ChapterFiveActivity">
+        </activity>
     </application>
 
 </manifest>
