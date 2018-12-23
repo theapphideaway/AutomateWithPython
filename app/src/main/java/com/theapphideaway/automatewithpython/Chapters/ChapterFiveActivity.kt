@@ -16,6 +16,8 @@ class ChapterFiveActivity : AppCompatActivity() {
         val py = Python.getInstance()
         val pyClass = py.getModule("ChapterFive")
 
+        tic_tac_toe_board.text = pyClass.callAttr("tic_tac_toe_board").toString()
+
         dictionary_text_view.text = "Birthday dictionary: " + pyClass.callAttr("my_dictionary")
 
         name_button.setOnClickListener {
@@ -53,6 +55,14 @@ class ChapterFiveActivity : AppCompatActivity() {
             new_dictionary_text_view.visibility = View.VISIBLE
             new_dictionary_text_view.text = "Updated dictionary: " + pyClass.callAttr("add_birthday", name_edit_text.text.toString(),
                 birthday_edit_text.text.toString())
+        }
+
+        x_button.setOnClickListener {
+            tic_tac_toe_board.text = pyClass.callAttr("play", x_edit_text.text.toString(), "X").toString()
+        }
+
+        o_button.setOnClickListener {
+            tic_tac_toe_board.text = pyClass.callAttr("play", o_edit_text.text.toString(), "O").toString()
         }
 
 
