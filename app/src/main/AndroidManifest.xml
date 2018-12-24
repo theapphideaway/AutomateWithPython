@@ -27,6 +27,10 @@
         </activity>
         <activity android:name=".Chapters.ChapterFiveActivity">
         </activity>
+        <activity android:name=".Chapters.ChapterSixActivity">
+        </activity>
+        <activity android:name=".Chapters.ChapterSeven">
+        </activity>
     </application>
 
 </manifest>

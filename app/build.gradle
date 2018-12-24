@@ -18,6 +18,11 @@ android {
         ndk {
             abiFilters "armeabi-v7a", "x86"
         }
+        python {
+            pip {
+                install "pyperclip==1.7.0"
+            }
+        }
     }
     buildTypes {
         release {
