@@ -20,7 +20,7 @@ android {
         }
         python {
             pip {
-                install "pyperclip==1.7.0"
+
             }
         }
     }
