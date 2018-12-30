@@ -3,28 +3,30 @@ package com.theapphideaway.automatewithpython.Chapters
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Environment
+import android.widget.EditText
 import android.widget.Toast
 import com.chaquo.python.Python
 import com.theapphideaway.automatewithpython.R
 import kotlinx.android.synthetic.main.activity_chapter_eight.*
 import java.io.*
-
+import java.math.BigInteger
+import java.nio.charset.Charset
+import java.nio.file.Files
+import java.nio.file.Paths
+import java.security.MessageDigest
 
 
 class ChapterEightActivity : AppCompatActivity() {
 
-    val filename = "FromPython.txt"
     var fileToReadAndWrite: File? = null
 
     val py = Python.getInstance()
     var pyClass = py.getModule("ChapterEight")
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_chapter_eight)
-
-
-
 
         button.setOnClickListener{
 
@@ -41,8 +43,6 @@ class ChapterEightActivity : AppCompatActivity() {
                 }
             } else {
                 Toast.makeText(this, "Storage not writable.", Toast.LENGTH_LONG).show()
-
-
             }
        }
 
@@ -60,8 +60,6 @@ class ChapterEightActivity : AppCompatActivity() {
                 }
             } else {
                 Toast.makeText(this, "Storage not writable.", Toast.LENGTH_LONG).show()
-
-
             }
 
         }
@@ -75,7 +73,6 @@ class ChapterEightActivity : AppCompatActivity() {
 
 
     private fun getDocumentStoragePath(): File {
-        // Get the directory for the user's public documents directory.
         val path = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS)
         if (!path.mkdirs()) {
             path.mkdirs()
@@ -85,7 +82,8 @@ class ChapterEightActivity : AppCompatActivity() {
 
 
     private fun getFilename(): File {
-        fileToReadAndWrite = File(getDocumentStoragePath(), filename)
+        fileToReadAndWrite = File(getDocumentStoragePath(), "${title_edit_text.text}.txt")
+
         return fileToReadAndWrite as File
     }
 
@@ -96,30 +94,11 @@ class ChapterEightActivity : AppCompatActivity() {
     }
 
     private fun readFile(textFile: File) = try {
-        //val fis = FileInputStream(textFile)
 
-       // var someText = PrintWriter(textFile)
+        var results = pyClass.callAttr("read_file",textFile).toString()
 
-        //val inputAsString = FileInputStream(textFile).bufferedReader().use { it.readText() }
+        Toast.makeText(this, results, Toast.LENGTH_SHORT).show()
 
-        var text = textFile.readText()
-        Toast.makeText(this, text, Toast.LENGTH_SHORT).show()
-
-        //var results = pyClass.callAttr("read_file", fos, filesDir.toString(), filename).toString()
-
-//        var myData = ""
-//
-//        val `in` = DataInputStream(fis)
-//        val br = BufferedReader(InputStreamReader(`in`))
-//        var strLine = br.readLine()
-//        while (strLine != null) {
-//            myData += strLine
-//        }
-//        `in`.close()
-//
-//        var foo = myData
-
-        //Toast.makeText(this, results, Toast.LENGTH_SHORT).show()
     } catch (e: FileNotFoundException) {
         Toast.makeText(this, e.toString(), Toast.LENGTH_LONG).show()
     } catch (e: IOException) {
@@ -134,11 +113,8 @@ class ChapterEightActivity : AppCompatActivity() {
             val fos = FileOutputStream(textFile)
 
 
-            var results = pyClass.callAttr("write_to_file", fos, filesDir.toString(), filename).toString()
+            var results = pyClass.callAttr("write_to_file", fos, content_edit_text.text.toString()).toString()
 
-
-//            fos.write("Hey whats going on I just wrote this from the python app.".toByteArray())
-//            fos.close()
             Toast.makeText(this, results, Toast.LENGTH_SHORT).show()
         } catch (e: FileNotFoundException) {
             Toast.makeText(this, e.toString(), Toast.LENGTH_LONG).show()
