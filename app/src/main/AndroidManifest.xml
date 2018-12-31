@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.theapphideaway.automatewithpython">
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
     <application
             android:name="com.chaquo.python.android.PyApplication"
@@ -33,6 +34,12 @@
         <activity android:name=".Chapters.ChapterSevenActivity">
         </activity>
         <activity android:name=".Chapters.ChapterEightActivity">
+        </activity>
+        <activity android:name=".Chapters.Main2Activity">
+        </activity>
+        <activity android:name=".Chapters.ChapterNineActivity">
+        </activity>
+        <activity android:name=".Chapters.ChapterTenActivity">
         </activity>
     </application>
 

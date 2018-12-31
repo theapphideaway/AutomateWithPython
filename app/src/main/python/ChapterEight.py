@@ -1,4 +1,3 @@
-import os
 
 def write_to_file(fos,content):
     fos.write(content.encode())
