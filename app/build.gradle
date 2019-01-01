@@ -20,6 +20,9 @@ android {
         }
         python {
             pip {
+                install "requests==2.21.0"
+                install "beautifulsoup4==4.7.0"
+                install "openpyxl==2.5.12"
 
             }
         }
