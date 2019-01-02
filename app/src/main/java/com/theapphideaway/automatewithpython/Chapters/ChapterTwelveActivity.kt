@@ -20,6 +20,14 @@ class ChapterTwelveActivity : AppCompatActivity() {
         setContentView(R.layout.activity_chapter_twelve)
 
         original_sheet_text_view.text =  pyClass.callAttr("get_spreadsheet", getFilename().toString()).toString()
+
+        var produceText = produce_edit_text.text
+        var priceText = price_edit_text.text
+
+        update_button.setOnClickListener {
+            updated_spreadsheet_text_view.text = pyClass.callAttr("update_spreadsheet", getFilename().toString(),
+                produceText.toString(), priceText.toString()).toString()
+        }
     }
 
     private fun getDocumentStoragePath(): File {
@@ -31,7 +39,7 @@ class ChapterTwelveActivity : AppCompatActivity() {
     }
 
     private fun getFilename(): File {
-        fileToReadAndWrite = File(getDocumentStoragePath(), "example.xlsx")
+        fileToReadAndWrite = File(getDocumentStoragePath(), "produceSales.xlsx")
 
         return fileToReadAndWrite as File
     }
