@@ -91,6 +91,10 @@ class ChapterAdapter(private val chapterList: ArrayList<Chapter>, private val co
                     var intent = Intent(context, ChapterFifteenActivity::class.java)
                     startActivity(context,intent, null)
                 }
+                holder.itemView.chapter.text.toString() == "Chapter 16" -> {
+                    var intent = Intent(context, ChapterSixteenActivity::class.java)
+                    startActivity(context,intent, null)
+                }
             }
 
         }

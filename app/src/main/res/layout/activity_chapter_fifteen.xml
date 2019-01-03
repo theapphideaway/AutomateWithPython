@@ -11,7 +11,16 @@
             android:text="Start Timer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/timer" app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
-            android:layout_marginTop="24dp" app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"/>
+            android:id="@+id/timer_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/timer_edit_text"
+            android:layout_marginStart="8dp" android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent"/>
+    <EditText
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/timer_edit_text" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="parent" android:hint="Enter Number of Seconds"/>
 </android.support.constraint.ConstraintLayout>

@@ -25,6 +25,7 @@ android {
                 install "openpyxl==2.5.12"
                 install "python-docx==0.8.7"
                 install "PyPDF2==1.26.0"
+                install "twilio==6.0"
 
             }
         }

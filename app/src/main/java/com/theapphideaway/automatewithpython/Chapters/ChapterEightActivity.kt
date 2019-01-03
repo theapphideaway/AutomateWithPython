@@ -3,17 +3,11 @@ package com.theapphideaway.automatewithpython.Chapters
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Environment
-import android.widget.EditText
 import android.widget.Toast
 import com.chaquo.python.Python
 import com.theapphideaway.automatewithpython.R
 import kotlinx.android.synthetic.main.activity_chapter_eight.*
 import java.io.*
-import java.math.BigInteger
-import java.nio.charset.Charset
-import java.nio.file.Files
-import java.nio.file.Paths
-import java.security.MessageDigest
 
 
 class ChapterEightActivity : AppCompatActivity() {
@@ -113,7 +107,7 @@ class ChapterEightActivity : AppCompatActivity() {
             val fos = FileOutputStream(textFile)
 
 
-            var results = pyClass.callAttr("write_to_file", fos, content_edit_text.text.toString()).toString()
+            var results = pyClass.callAttr("write_to_file", fos, body_edit_text.text.toString()).toString()
 
             Toast.makeText(this, results, Toast.LENGTH_SHORT).show()
         } catch (e: FileNotFoundException) {
