@@ -7,4 +7,32 @@
         android:layout_height="match_parent"
         tools:context=".Chapters.ChapterSeventeenActivity">
 
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/file_edit_text" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:hint="Enter photo file name"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/logo_edit_text" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:hint="Enter logo file name"
+            app:layout_constraintHorizontal_bias="0.0" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/file_edit_text"/>
+    <Button
+            android:text="Add logo to photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/add_logo_button" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/logo_edit_text"/>
 </android.support.constraint.ConstraintLayout>
