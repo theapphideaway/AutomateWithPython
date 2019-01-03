@@ -26,6 +26,7 @@ android {
                 install "python-docx==0.8.7"
                 install "PyPDF2==1.26.0"
                 install "twilio==6.0"
+                install "Pillow==5.2.0"
 
             }
         }

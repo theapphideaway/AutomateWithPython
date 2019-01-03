@@ -54,6 +54,10 @@
         </activity>
         <activity android:name=".Chapters.ChapterSixteenActivity">
         </activity>
+        <activity android:name=".Chapters.ChapterSeventeenActivity">
+        </activity>
+        <activity android:name=".Chapters.ChapterEighteenActivity">
+        </activity>
     </application>
 
 </manifest>
