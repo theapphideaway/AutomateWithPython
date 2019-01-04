@@ -7,8 +7,16 @@
         android:layout_height="match_parent"
         tools:context=".Chapters.ChapterSevenActivity">
 
+    <TextView
+            android:text="Chapter 7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/chapter_heading3" android:layout_marginTop="24dp"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:textColor="@color/colorAccent" android:textSize="30sp"
+            android:gravity="center"/>
     <Button
-            android:text="Search"
+            android:text="Search text for phone numbers"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/search_button"
@@ -34,5 +42,6 @@
             android:gravity="top|left"
             android:id="@+id/base_text_view"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" android:hint="Enter text"/>
+            android:hint="Enter text" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/chapter_heading3"/>
 </android.support.constraint.ConstraintLayout>

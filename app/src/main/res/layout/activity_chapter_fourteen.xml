@@ -13,15 +13,26 @@
             android:inputType="textPersonName"
             android:ems="10"
             android:id="@+id/location_edit_text" android:layout_marginStart="8dp"
-            app:layout_constraintStart_toStartOf="parent" android:layout_marginTop="8dp"
-            app:layout_constraintTop_toTopOf="parent" android:hint="Enter Location"/>
+            app:layout_constraintStart_toStartOf="parent"
+            android:hint="Enter Location" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/chapter_heading10"/>
     <Button
             android:text="Get Temp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/temp_button" app:layout_constraintStart_toEndOf="@+id/location_edit_text"
-            android:layout_marginStart="8dp" android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"/>
+            android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintHorizontal_bias="0.509" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/chapter_heading10"/>
+    <TextView
+            android:text="Chapter 14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/chapter_heading10" android:layout_marginTop="24dp"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:textColor="@color/colorAccent" android:textSize="30sp"
+            android:gravity="center"/>
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
