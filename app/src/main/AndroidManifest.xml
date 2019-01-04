@@ -42,8 +42,6 @@
         </activity>
         <activity android:name=".Chapters.ChapterElevenActivity">
         </activity>
-        <activity android:name=".Chapters.Chapter12">
-        </activity>
         <activity android:name=".Chapters.ChapterTwelveActivity">
         </activity>
         <activity android:name=".Chapters.ChapterThirteenActivity">

@@ -20,6 +20,7 @@ android {
         }
         python {
             pip {
+
                 install "requests==2.21.0"
                 install "beautifulsoup4==4.7.0"
                 install "openpyxl==2.5.12"
@@ -27,6 +28,7 @@ android {
                 install "PyPDF2==1.26.0"
                 install "twilio==6.0"
                 install "Pillow==5.2.0"
+                install "PyAutoGUI==0.9.39"
 
             }
         }
