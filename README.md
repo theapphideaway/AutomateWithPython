@@ -17,7 +17,11 @@ Make sure the latest version of Android Studio is installed on your computer.
 
 # Overview
 
-You can either download the zip file or clone the project.
+This project is for educational purposes to display how powerful Python can be when implemented into a mobile app. This application uses Chaquopy. An incredible framework that allows you to write a native Android application consisting partly or entirely of Python code. This project is to display how you can access the awesome features of Python while still being minimally invasive to the native android code. 
+
+This project uses loose MVVM arcitecture, having the View Models in python. This project is specifically aimed at Python developers who would like to implement their code into a mobile app, as well as Android developers who would like to implement useful Python libraries into their applications
+
+You can either download the zip file or clone the project. This project is currently in the process of being uploaded to the google play store.
 
 
 # Main page
