@@ -20,9 +20,15 @@ class ChapterThirteenActivity : AppCompatActivity() {
         setContentView(R.layout.activity_chapter_thirteen)
 
         save_button.setOnClickListener {
-            var result = pyClass.callAttr("create_word_file", getFilename(title_edit_text.text.toString()).toString()).toString()
-
+            var result = pyClass.callAttr("pdf_page_count",
+                getFilename(title_edit_text.text.toString()).toString()).toString()
             Toast.makeText(this, result, Toast.LENGTH_LONG).show()
+        }
+
+        save_word_button.setOnClickListener {
+            word_file_text_view.text = pyClass.callAttr("save_word_doc",
+                getWordFilename(word_title_edit_text.text.toString()).toString(),
+                word_add_edit_text.text.toString()).toString()
         }
     }
 
@@ -36,6 +42,12 @@ class ChapterThirteenActivity : AppCompatActivity() {
 
     private fun getFilename(filename: String): File {
         fileToReadAndWrite = File(getDocumentStoragePath(), filename + ".pdf")
+
+        return fileToReadAndWrite as File
+    }
+
+    private fun getWordFilename(filename: String): File {
+        fileToReadAndWrite = File(getDocumentStoragePath(), filename + ".docx")
 
         return fileToReadAndWrite as File
     }
