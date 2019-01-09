@@ -70,7 +70,7 @@ Displays how strings have been manipulated
 
 Read and write a text file
 
-<img src="https://user-images.githubusercontent.com/32747586/50930419-01a2ac00-142e-11e9-9241-35530f893205.png" width="20%">
+<img src="https://user-images.githubusercontent.com/32747586/50930431-02d3d900-142e-11e9-8c3a-cccb1ad9656e.png" width="20%">
 
 
 
@@ -78,7 +78,7 @@ Read and write a text file
 
 
 
-<img src="https://user-images.githubusercontent.com/32747586/50930420-01a2ac00-142e-11e9-923e-2d92796ec477.png" width="20%">
+<img src="https://user-images.githubusercontent.com/32747586/50931239-06685f80-1430-11e9-9025-956a257c7b35.png" width="20%">
 
 
 
@@ -86,7 +86,7 @@ Read and write a text file
 
 Rename or delete the file you made in chapter 8
 
-<img src="https://user-images.githubusercontent.com/32747586/50692321-77a7ad00-1001-11e9-908d-0b61be0792b9.png" width="20%">
+<img src="https://user-images.githubusercontent.com/32747586/50930419-01a2ac00-142e-11e9-9241-35530f893205.png" width="20%">
 
 
 
@@ -94,13 +94,13 @@ Rename or delete the file you made in chapter 8
 
 The coin toss project that throws an error, you are supposed to debug it. Hints are given in the source code
 
-<img src="https://user-images.githubusercontent.com/32747586/50692322-77a7ad00-1001-11e9-85bd-360bf08fdfac.png" width="20%">
+<img src="https://user-images.githubusercontent.com/32747586/50930420-01a2ac00-142e-11e9-923e-2d92796ec477.png" width="20%">
 
 
 
 # Chapter 11
 
-<img src="https://user-images.githubusercontent.com/32747586/50692323-77a7ad00-1001-11e9-9c94-830ba40e7774.png" width="20%">
+<img src="https://user-images.githubusercontent.com/32747586/50930421-01a2ac00-142e-11e9-98d7-d72e4cba0db7.png" width="20%">
 
 # Chapter 12
 
@@ -111,13 +111,13 @@ UPDATING AN ITEM WILL UPDATE THE VALUE FOR EVERY ITEM IN THE FILE***
 
 ***MAKE SURE YOU HAVE THE PRODUCE FILE IN YOUR DOCUMENTS FOLDER***
 
-<img src="https://user-images.githubusercontent.com/32747586/50694058-dd4a6800-1006-11e9-90b9-6dc6063be0e8.png" width="20%">
+<img src="https://user-images.githubusercontent.com/32747586/50930422-01a2ac00-142e-11e9-8aa1-2e4c74075752.png" width="20%">
 
 # Chapter 13
 
 Reads the number of pages in a pdf file
 
-<img src="https://user-images.githubusercontent.com/32747586/50692325-77a7ad00-1001-11e9-9768-7b2c2b642d23.png" width="20%">
+<img src="https://user-images.githubusercontent.com/32747586/50930423-023b4280-142e-11e9-8518-5503f991c7d4.png" width="20%">
 
 # Chapter 14
 
@@ -125,13 +125,13 @@ Get the current tempurature for the entered location. Reads API data from Open W
 
 ***MAKE SURE YOU ENTER YOUR OWN API KEY***
 
-<img src="https://user-images.githubusercontent.com/32747586/50692326-77a7ad00-1001-11e9-8751-ac0c32b487ee.png" width="20%">
+<img src="https://user-images.githubusercontent.com/32747586/50930425-023b4280-142e-11e9-810e-f8cf6200524c.png" width="20%">
 
 # Chapter 15
 
 Simple timer project
 
-<img src="https://user-images.githubusercontent.com/32747586/50692327-78404380-1001-11e9-9fde-809e986dd91a.png" width="20%">
+<img src="https://user-images.githubusercontent.com/32747586/50930426-023b4280-142e-11e9-94c6-def149fafd77.png" width="20%">
 
 # Chapter 16
 
@@ -139,13 +139,13 @@ Login into your gmail account and send an email.
 
 ***MAKE SURE YOU ALLOW ACCESS FROM UNSECURE APPS FROM YOUR GMAIL OR ELSE YOU WILL NOT BE ABLE TO LOG IN***
 
-<img src="https://user-images.githubusercontent.com/32747586/50692328-78404380-1001-11e9-934d-1a1de346eb06.png" width="20%">
+<img src="https://user-images.githubusercontent.com/32747586/50930427-023b4280-142e-11e9-9013-ca6ba3faf88c.png" width="20%">
 
 # Chapter 17
 
 Add a logo to any of your photos. In this example I use the cat logo and the picture of Zophie.
 
-<img src="https://user-images.githubusercontent.com/32747586/50692329-78404380-1001-11e9-830d-ccccfc4d8482.png" width="20%">
+<img src="https://user-images.githubusercontent.com/32747586/50930429-023b4280-142e-11e9-857c-e6c8b363da2d.png" width="20%">
 <img src="https://user-images.githubusercontent.com/32747586/50696073-792aa280-100c-11e9-8187-f980886b0ea9.png" width=20%>
 
 # Chapter 18
@@ -154,7 +154,7 @@ Gets the current X and Y coordinate for the area on the screen that was touched 
 
 Due to issues with pyautogui, this was done in Kotlin for the time being. I plan to make this entire activity python based however.
 
-<img src="https://user-images.githubusercontent.com/32747586/50692330-78404380-1001-11e9-91ca-2ca011d8aa92.png" width="20%">
+<img src="https://user-images.githubusercontent.com/32747586/50930430-023b4280-142e-11e9-90ab-b0d943165f30.png" width="20%">
 
 
 
@@ -175,63 +175,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 * All of this was possible because of the amazing team at Chaquopy.
 * Big thank you to Al Sweigart for writing this awesome book and creating the companion website.
-
-
-
-
-
-![screenshot_2019-01-09-16-28-09](https://user-images.githubusercontent.com/32747586/50930412-010a1580-142e-11e9-9f1c-277d2490c2f9.png)
-
-1
-![screenshot_2019-01-09-16-28-20](https://user-images.githubusercontent.com/32747586/50930413-010a1580-142e-11e9-815a-f062f77f70fa.png)
-
-2
-![screenshot_2019-01-09-16-28-26](https://user-images.githubusercontent.com/32747586/50930414-010a1580-142e-11e9-958e-f961544b3b6f.png)
-
-3
-![screenshot_2019-01-09-16-28-32](https://user-images.githubusercontent.com/32747586/50930415-010a1580-142e-11e9-98d2-36aacc3fd9ed.png)
-
-4
-![screenshot_2019-01-09-16-28-37](https://user-images.githubusercontent.com/32747586/50930416-01a2ac00-142e-11e9-9d12-e2a5ecb4b9ef.png)
-
-5
-![screenshot_2019-01-09-16-28-44](https://user-images.githubusercontent.com/32747586/50930417-01a2ac00-142e-11e9-834b-fbdf5b4a044b.png)
-
-6
-![screenshot_2019-01-09-16-28-50](https://user-images.githubusercontent.com/32747586/50930418-01a2ac00-142e-11e9-9e7e-cc820bc1ff20.png)
-
-9
-![screenshot_2019-01-09-16-31-43](https://user-images.githubusercontent.com/32747586/50930419-01a2ac00-142e-11e9-9241-35530f893205.png)
-
-10
-![screenshot_2019-01-09-16-32-26](https://user-images.githubusercontent.com/32747586/50930420-01a2ac00-142e-11e9-923e-2d92796ec477.png)
-
-11
-![screenshot_2019-01-09-16-32-35](https://user-images.githubusercontent.com/32747586/50930421-01a2ac00-142e-11e9-98d7-d72e4cba0db7.png)
-
-
-12
-![screenshot_2019-01-09-16-33-20](https://user-images.githubusercontent.com/32747586/50930422-01a2ac00-142e-11e9-8aa1-2e4c74075752.png)
-
-13
-![screenshot_2019-01-09-16-33-34](https://user-images.githubusercontent.com/32747586/50930423-023b4280-142e-11e9-8518-5503f991c7d4.png)
-
-14
-![screenshot_2019-01-09-16-33-43](https://user-images.githubusercontent.com/32747586/50930425-023b4280-142e-11e9-810e-f8cf6200524c.png)
-
-15
-![screenshot_2019-01-09-16-33-49](https://user-images.githubusercontent.com/32747586/50930426-023b4280-142e-11e9-94c6-def149fafd77.png)
-
-16
-![screenshot_2019-01-09-16-34-00](https://user-images.githubusercontent.com/32747586/50930427-023b4280-142e-11e9-9013-ca6ba3faf88c.png)
-
-
-17
-![screenshot_2019-01-09-16-36-43](https://user-images.githubusercontent.com/32747586/50930429-023b4280-142e-11e9-857c-e6c8b363da2d.png)
-
-18
-![screenshot_2019-01-09-16-36-56](https://user-images.githubusercontent.com/32747586/50930430-023b4280-142e-11e9-90ab-b0d943165f30.png)
-
-7
-![screenshot_2019-01-09-16-38-34](https://user-images.githubusercontent.com/32747586/50930431-02d3d900-142e-11e9-8c3a-cccb1ad9656e.png)
 
