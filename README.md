@@ -36,7 +36,7 @@ Displays how variables are used and displayed
 
 Uses loops to iterate 
 
-<img src="https://user-images.githubusercontent.com/32747586/50692314-770f1680-1001-11e9-85b4-71daf9514f17.png" width="20%">
+<img src="https://user-images.githubusercontent.com/32747586/50930414-010a1580-142e-11e9-958e-f961544b3b6f.png" width="20%">
 
 # Chapter 3
 
