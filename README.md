@@ -26,6 +26,10 @@ You can either download the zip file or clone the project. This project is curre
 
 # Main page
 
+Here is a list of chapters and their headings
+
+img src="https://user-images.githubusercontent.com/32747586/50930412-010a1580-142e-11e9-9f1c-277d2490c2f9.png" width="20%">
+
 # Chapter 1
 
 Displays how variables are used and displayed 
@@ -42,31 +46,31 @@ Uses loops to iterate
 
 A basic example of exception handling
 
-<img src="https://user-images.githubusercontent.com/32747586/50692315-770f1680-1001-11e9-8290-cf91e965829d.png" width="20%">
+<img src="https://user-images.githubusercontent.com/32747586/50930415-010a1580-142e-11e9-98d2-36aacc3fd9ed.png" width="20%">
 
 # Chapter 4
 
 Working with lists, inserting an item at an index, both of which are defined by the user
 
-<img src="https://user-images.githubusercontent.com/32747586/50692316-770f1680-1001-11e9-922d-e60b9c682916.png" width="20%">
+<img src="https://user-images.githubusercontent.com/32747586/50930416-01a2ac00-142e-11e9-9d12-e2a5ecb4b9ef.png" width="20%">
 
 # Chapter 5
 
 Working with dictionaries, includes the tic-tac-toe project 
 
-<img src="https://user-images.githubusercontent.com/32747586/50692317-770f1680-1001-11e9-94f7-5aac479676d6.png" width="20%">
+<img src="https://user-images.githubusercontent.com/32747586/50930417-01a2ac00-142e-11e9-834b-fbdf5b4a044b.png" width="20%">
 
 # Chapter 6
 
 Displays how strings have been manipulated
 
-<img src="https://user-images.githubusercontent.com/32747586/50692318-770f1680-1001-11e9-8b3f-57750445e64e.png" width="20%">
+<img src="https://user-images.githubusercontent.com/32747586/50930418-01a2ac00-142e-11e9-9e7e-cc820bc1ff20.png" width="20%">
 
 # Chapter 7
 
 Read and write a text file
 
-<img src="https://user-images.githubusercontent.com/32747586/50692319-77a7ad00-1001-11e9-8028-643699eb4c72.png" width="20%">
+<img src="https://user-images.githubusercontent.com/32747586/50930419-01a2ac00-142e-11e9-9241-35530f893205.png" width="20%">
 
 
 
@@ -74,7 +78,7 @@ Read and write a text file
 
 
 
-<img src="https://user-images.githubusercontent.com/32747586/50692320-77a7ad00-1001-11e9-9080-a5fec5d21e15.png" width="20%">
+<img src="https://user-images.githubusercontent.com/32747586/50930420-01a2ac00-142e-11e9-923e-2d92796ec477.png" width="20%">
 
 
 
@@ -171,3 +175,63 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 * All of this was possible because of the amazing team at Chaquopy.
 * Big thank you to Al Sweigart for writing this awesome book and creating the companion website.
+
+
+
+
+
+![screenshot_2019-01-09-16-28-09](https://user-images.githubusercontent.com/32747586/50930412-010a1580-142e-11e9-9f1c-277d2490c2f9.png)
+
+1
+![screenshot_2019-01-09-16-28-20](https://user-images.githubusercontent.com/32747586/50930413-010a1580-142e-11e9-815a-f062f77f70fa.png)
+
+2
+![screenshot_2019-01-09-16-28-26](https://user-images.githubusercontent.com/32747586/50930414-010a1580-142e-11e9-958e-f961544b3b6f.png)
+
+3
+![screenshot_2019-01-09-16-28-32](https://user-images.githubusercontent.com/32747586/50930415-010a1580-142e-11e9-98d2-36aacc3fd9ed.png)
+
+4
+![screenshot_2019-01-09-16-28-37](https://user-images.githubusercontent.com/32747586/50930416-01a2ac00-142e-11e9-9d12-e2a5ecb4b9ef.png)
+
+5
+![screenshot_2019-01-09-16-28-44](https://user-images.githubusercontent.com/32747586/50930417-01a2ac00-142e-11e9-834b-fbdf5b4a044b.png)
+
+6
+![screenshot_2019-01-09-16-28-50](https://user-images.githubusercontent.com/32747586/50930418-01a2ac00-142e-11e9-9e7e-cc820bc1ff20.png)
+
+9
+![screenshot_2019-01-09-16-31-43](https://user-images.githubusercontent.com/32747586/50930419-01a2ac00-142e-11e9-9241-35530f893205.png)
+
+10
+![screenshot_2019-01-09-16-32-26](https://user-images.githubusercontent.com/32747586/50930420-01a2ac00-142e-11e9-923e-2d92796ec477.png)
+
+11
+![screenshot_2019-01-09-16-32-35](https://user-images.githubusercontent.com/32747586/50930421-01a2ac00-142e-11e9-98d7-d72e4cba0db7.png)
+
+
+12
+![screenshot_2019-01-09-16-33-20](https://user-images.githubusercontent.com/32747586/50930422-01a2ac00-142e-11e9-8aa1-2e4c74075752.png)
+
+13
+![screenshot_2019-01-09-16-33-34](https://user-images.githubusercontent.com/32747586/50930423-023b4280-142e-11e9-8518-5503f991c7d4.png)
+
+14
+![screenshot_2019-01-09-16-33-43](https://user-images.githubusercontent.com/32747586/50930425-023b4280-142e-11e9-810e-f8cf6200524c.png)
+
+15
+![screenshot_2019-01-09-16-33-49](https://user-images.githubusercontent.com/32747586/50930426-023b4280-142e-11e9-94c6-def149fafd77.png)
+
+16
+![screenshot_2019-01-09-16-34-00](https://user-images.githubusercontent.com/32747586/50930427-023b4280-142e-11e9-9013-ca6ba3faf88c.png)
+
+
+17
+![screenshot_2019-01-09-16-36-43](https://user-images.githubusercontent.com/32747586/50930429-023b4280-142e-11e9-857c-e6c8b363da2d.png)
+
+18
+![screenshot_2019-01-09-16-36-56](https://user-images.githubusercontent.com/32747586/50930430-023b4280-142e-11e9-90ab-b0d943165f30.png)
+
+7
+![screenshot_2019-01-09-16-38-34](https://user-images.githubusercontent.com/32747586/50930431-02d3d900-142e-11e9-8c3a-cccb1ad9656e.png)
+
