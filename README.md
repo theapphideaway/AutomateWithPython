@@ -26,9 +26,9 @@ You can either download the zip file or clone the project. This project is curre
 
 # Main page
 
-Here is a list of chapters and their headings
+A list of chapters and their headings
 
-img src="https://user-images.githubusercontent.com/32747586/50930412-010a1580-142e-11e9-9f1c-277d2490c2f9.png" width="20%">
+<img src="https://user-images.githubusercontent.com/32747586/50930412-010a1580-142e-11e9-9f1c-277d2490c2f9.png" width="20%">
 
 # Chapter 1
 
