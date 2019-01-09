@@ -14,12 +14,14 @@
             android:layout_height="wrap_content"
             android:id="@+id/chapter_heading12" android:layout_marginTop="24dp"
             android:textColor="@color/colorAccent" android:textSize="30sp"
+            android:fontFamily="@font/san_francisco"
             android:gravity="center"/>
     <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
             android:ems="10"
+            android:fontFamily="@font/san_francisco"
             android:id="@+id/username_edit_text" android:layout_marginStart="8dp"
             android:hint="Enter Gmail" android:layout_marginEnd="8dp"
             android:layout_marginTop="8dp"/>
@@ -28,6 +30,7 @@
             android:layout_height="wrap_content"
             android:inputType="textPassword"
             android:ems="10"
+            android:fontFamily="@font/san_francisco"
             android:id="@+id/password_edit_text" android:layout_marginStart="8dp"
             android:hint="Enter Password" android:layout_marginEnd="8dp"
             android:layout_marginTop="8dp" />
@@ -36,6 +39,7 @@
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
             android:ems="10"
+            android:fontFamily="@font/san_francisco"
             android:id="@+id/recipient_edit_text"
             android:layout_marginStart="8dp"
             android:hint="Recipient" android:layout_marginEnd="8dp"
@@ -45,6 +49,7 @@
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
             android:ems="10"
+            android:fontFamily="@font/san_francisco"
             android:id="@+id/subject_edit_text" android:layout_marginStart="8dp"
             app:layout_constraintStart_toStartOf="parent"
             android:hint="Subject" android:layout_marginEnd="8dp"
@@ -56,6 +61,7 @@
             android:layout_height="match_parent"
             android:inputType="textMultiLine"
             android:ems="10"
+            android:fontFamily="@font/san_francisco"
             android:id="@+id/body_edit_text"
             android:layout_marginStart="8dp"
             android:hint="Body"

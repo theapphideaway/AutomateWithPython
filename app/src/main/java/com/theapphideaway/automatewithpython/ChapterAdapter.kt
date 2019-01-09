@@ -101,21 +101,19 @@ class ChapterAdapter(private val chapterList: ArrayList<Chapter>, private val co
                 }
                 holder.itemView.chapter.text.toString() == "Chapter 18" -> {
                     var intent = Intent(context, ChapterEighteenActivity::class.java)
-
                     startActivity(context,intent, null)
                 }
             }
-
         }
-
     }
 
     inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         fun bindPerson(chapter: Chapter) {
-            var nameText: TextView = itemView.findViewById(R.id.chapter) as TextView
+            var chapterText: TextView = itemView.findViewById(R.id.chapter) as TextView
+            var descriptionText: TextView = itemView.findViewById(R.id.description) as TextView
 
-            nameText.text = chapter.Title
+            chapterText.text = chapter.Title
+            descriptionText.text = chapter.Description
         }
-
     }
 }

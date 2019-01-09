@@ -11,6 +11,7 @@
             android:text="Chapter 18"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/san_francisco"
             android:id="@+id/chapter_heading14" android:layout_marginTop="24dp"
             app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
             android:textColor="@color/colorAccent" android:textSize="30sp"
