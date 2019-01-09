@@ -30,7 +30,7 @@ You can either download the zip file or clone the project. This project is curre
 
 Displays how variables are used and displayed 
 
-<img src="" width="20%">
+<img src="https://user-images.githubusercontent.com/32747586/50930413-010a1580-142e-11e9-815a-f062f77f70fa.png" width="20%">
 
 # Chapter 2
 
