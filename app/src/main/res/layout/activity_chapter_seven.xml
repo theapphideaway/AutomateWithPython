@@ -18,7 +18,7 @@
             android:gravity="center"/>
     <Button
             android:text="Search text for phone numbers"
-            android:layout_width="200dp"
+            android:layout_width="215dp"
             android:layout_height="wrap_content"
             android:id="@+id/search_button"
             app:layout_constraintEnd_toEndOf="parent"

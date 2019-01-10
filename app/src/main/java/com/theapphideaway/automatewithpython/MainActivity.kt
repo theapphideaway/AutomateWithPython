@@ -4,16 +4,12 @@ import android.Manifest
 import android.content.pm.PackageManager
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.os.Environment
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
 import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.chapter_card.*
-import java.io.File.separator
-import android.os.Environment.getExternalStorageDirectory
-import android.util.Log
-import com.chaquo.python.Python
-import java.io.File
+import android.view.Menu
+import android.view.MenuItem
+import android.support.v7.app.AlertDialog
 
 
 class MainActivity : AppCompatActivity() {
@@ -64,11 +60,45 @@ class MainActivity : AppCompatActivity() {
                 14 -> chapter.Description = "Working with CSV and JSON Files"
                 15 -> chapter.Description = "Keeping Time, Scheduling Tasks, and Launching Programs"
                 16 -> chapter.Description = "Sending Email and Text Messages"
-                17 -> chapter.Description = "Manipulating Strings"
+                17 -> chapter.Description = "Manipulating Images"
                 18 -> chapter.Description = "Controlling the Keyboard and Mouse with GUI Automation"
             }
             chapterList!!.add(chapter)
         }
         chapterAdapter!!.notifyDataSetChanged()
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+
+        menuInflater.inflate(R.menu.menu_main, menu)
+
+        return super.onCreateOptionsMenu(menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem?): Boolean {
+
+        if(item != null){
+            when(item.itemId){
+                R.id.info_button_item ->{
+
+                    val alertDialog = AlertDialog.Builder(this)
+
+                    // Setting Dialog Title
+                    alertDialog.setTitle("WELCOME!")
+
+                    // Setting Dialog Message
+                    alertDialog.setMessage("This app is based entirely off of the book \"Automate the Boring Stuff With Python\". " +
+                            "Download the support files at " +
+                            "https://nostarch.com/download/Automate_the_Boring_Stuff_onlinematerials_v.2.zip" +
+                            ". Place each file in the Documents folder of your device for the implementations to work.")
+
+                    alertDialog.setPositiveButton("OK") { _, _ ->}
+                    val dialog: AlertDialog = alertDialog.create()
+                    dialog.show()
+                }
+            }
+        }
+
+        return super.onOptionsItemSelected(item)
     }
 }
